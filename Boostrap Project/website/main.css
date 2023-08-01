@@ -1,0 +1,84 @@
+
+.icon-box {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* background: green ; */
+    font-size: 50px;
+    flex: none;
+}
+
+#paws{
+    flex: none;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    height: 30px;
+}
+
+.navbar{
+    background: #008374;
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero {
+    background:#008374;
+    background-size: cover;
+}
+
+.nav-item a{
+    font-weight: bolder;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+.nav-item a:hover{
+    text-decoration:underline 1px red;
+    color: white;
+    width: 100%;
+}
+
+.bola{
+    border-radius: 50px;
+    width: 200px;
+    color:white;
+    margin-left:30px;
+    background: rgba(245, 245, 245, 0.26);
+    border: 1px solid rgb(151, 151, 151);
+    text-align: center;
+    font-size: 20px;
+    height:50px;
+}
+
+.bola:hover{
+    border: 1px solid white;
+    color: white;
+    background: rgba(245, 245, 245, 0.26);
+}
+
+.pods{
+    background: transparent;
+    border: none;
+    color: rgba(245, 245, 245, 0.26);
+    height:50px ;
+    width: 200px;
+    font-size: 20px;
+}
+
+.pods:hover{
+    color: white;
+}
+
