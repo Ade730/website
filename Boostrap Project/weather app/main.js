@@ -25,9 +25,9 @@ async function checkWeather(city) {
         weathericon.src ="images/mist.png"
     }
 }
+
     searchbtn.addEventListener("click", () => {
         checkWeather(searchbox.value)
     })
 
 
-// checkWeather();
